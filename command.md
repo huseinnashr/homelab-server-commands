@@ -11,6 +11,9 @@ ls -l /sys/class/net/
 nano /etc/network/interfaces
 ifreload -a
 
+# Set 4addr to on
+iw dev [network] set 4addr on
+
 # check is wlan connected
 iw [network] link
 ```
