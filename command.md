@@ -19,4 +19,7 @@ iw [network] link
 ```sh
 # Iso File Location
 /var/lib/vz/template/iso
+
+# get file size in MB
+ls -l --block-size=M
 ```
