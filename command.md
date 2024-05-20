@@ -26,3 +26,8 @@ iw [network] link
 # get file size in MB
 ls -l --block-size=M
 ```
+
+### K8s control plane access using SA Token
+```
+https://stackoverflow.com/a/70424837/8556970
+```
