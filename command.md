@@ -31,3 +31,9 @@ ls -l --block-size=M
 ```
 https://stackoverflow.com/a/70424837/8556970
 ```
+
+### Mount drive
+```
+lsblk -l
+mount -t ntfs /dev/sdb1 /mnt/t7  
+```
