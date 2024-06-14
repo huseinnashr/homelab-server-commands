@@ -37,3 +37,8 @@ https://stackoverflow.com/a/70424837/8556970
 lsblk -l
 mount -t ntfs /dev/sdb1 /mnt/t7  
 ```
+
+### Create Systemd
+```
+Ref: https://serverfault.com/a/946483
+```
